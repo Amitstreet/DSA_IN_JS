@@ -10,6 +10,7 @@ class Solution {
             result.add(new ArrayList<>(subres));
             return ;
        }
+       
           subres.add(nums[idx]);
           getallpath(nums,idx+1,subres);
           subres.remove(subres.size()-1);
@@ -22,3 +23,6 @@ class Solution {
             return result;         
     }
 }
+
+
+

@@ -15,9 +15,6 @@ const getallpath=(idx,arr)=>
        getallpath(idx+1,arr);    
  }
 
-
-
-     
         getallpath(0,[]);  
    
    return result;
